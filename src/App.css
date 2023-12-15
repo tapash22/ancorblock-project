@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.logo-title {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation {
+  background: #6941C6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-list {
+  color: var(--Brand-100, #F4EBFF);
+
+  /* Text md/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.me {
+  background: #6941C6;
+  /* text color */
+  color: #4E5D78;
+  border: #D6BBFB;
 }
 
-.App-link {
-  color: #61dafb;
+.m-text {
+  color: #4E5D78;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-in-text-link {
+
+  color: #377DFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
+
+.card-shadow {
+  border-radius: 16px;
+  border: 1px solid #EEE;
+  background: #FFF;
+
+  /* Shadow/xl */
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+
+.card-title{
+  color: #404040;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+}
+.card-logo{
+  color: #4E5D78;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.input-label{
+  color:  #344054;
+
+/* Shadow/xs focused 4px error-100 */
+text-shadow: 0px 0px 0px #FEE4E2, 0px 1px 2px rgba(16, 24, 40, 0.05);
+
+/* Text sm/Medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+
+.input-error{
+  color:  #F04438;
+
+/* Shadow/xs focused 4px error-100 */
+text-shadow: 0px 0px 0px #FEE4E2, 0px 1px 2px rgba(16, 24, 40, 0.05);
+
+/* Text sm/Regular */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+
+.button-text{
+  color:  #FFF;
+
+/* Text md/Semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+background: #6941C6;/* 150% */
+}
+.sign-in-link{
+  color: #377DFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sign-in-label{
+  color: #B0B7C3;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+input:focus{
+  outline: none;
+}
+
