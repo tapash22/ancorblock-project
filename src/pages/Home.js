@@ -4,8 +4,6 @@ import Login from "../components/form/Login";
 import Registration from "../components/form/Registration";
 
 const Home = () => {
-
-
     const [show, setShow] = useState(false);
 
     const changeView = () => {
@@ -39,8 +37,6 @@ const Home = () => {
                             <Registration />
                         )
                     }
-
-
                     <p className="sign-in-label py-2">
                     { show ? 'Already have an account?' :  'Don’t have an account?' }<button className="sign-in-link" onClick={changeView}>{show ? 'Sign Up' : 'Sign In'}</button>
                     </p>
