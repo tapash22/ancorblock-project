@@ -74,7 +74,7 @@ const Header = () => {
                         navList.map((navL) =>{
                             return (
                                 <li key={navL.id}>
-                                   <NavLink to={navL.link} className='nav-list'  activeClassName="active-link" >{navL.name}</NavLink>
+                                   <NavLink to={navL.link} className='nav-list'>{navL.name}</NavLink>
                                 </li>
                             )
                         })
